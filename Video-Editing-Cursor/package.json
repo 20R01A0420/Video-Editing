@@ -1,0 +1,33 @@
+{
+  "name": "video-editing-cursor",
+  "version": "1.0.0",
+  "description": "A video editing website for creating Instagram reels and YouTube format videos",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "formidable": "^3.5.1",
+    "next": "^14.2.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-color": "^2.19.3",
+    "lucide-react": "^0.263.1",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/node": "20.0.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@types/react-color": "^3.0.8",
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.31",
+    "tailwindcss": "3.3.0",
+    "typescript": "^5.0.0"
+  }
+}
